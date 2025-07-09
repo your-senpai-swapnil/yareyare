@@ -4,12 +4,16 @@
         <p>This is a simple webpage to demonstrate the structure of an HTML document.</p>
         
         <form action="server.php" method="post">
-            <label for="name">Name:</label>
             <input type="text" id="name" name="name" required>
+            <label for="name">Enter your name:</label>
             <br>
-            <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
+            <label for="email">Enter your email:</label>
             <br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+            <label for="message">Your message:</label>
+            <br>
+            
             <button type="submit">Submit</button>
         </form>
         
