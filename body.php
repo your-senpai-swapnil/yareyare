@@ -10,8 +10,8 @@
             <input type="email" id="email" name="email" required>
             <label for="email">Enter your email:</label>
             <br>
-            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
-            <label for="message">Your message:</label>
+            <textarea id="id" name="id" rows="4" cols="50" required></textarea>
+            <label for="id">Your id:</label>
             <br>
             
             <button type="submit">Submit</button>
